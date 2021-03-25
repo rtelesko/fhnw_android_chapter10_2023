@@ -1,0 +1,6 @@
+include ':LotteryMVVM'
+include ':LotteryDBTwo'
+include ':LotteryDBThree'
+include ':LotteryDBOne'
+include ':app'
+rootProject.name = "Chapter10"

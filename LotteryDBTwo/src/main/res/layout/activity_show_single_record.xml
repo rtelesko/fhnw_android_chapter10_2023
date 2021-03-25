@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_single_record"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ShowSingleRecordActivity">
+
+
+    <TextView
+        android:text="@string/text_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tvTextID"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="@string/text_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTextID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvTextName"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="@string/text_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTextName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvTextLocation"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvID"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvTextLocation"
+        android:layout_toEndOf="@+id/tvTextLocation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_above="@+id/tvTextLocation"
+        android:layout_toRightOf="@+id/tvTextLocation"
+        android:layout_toEndOf="@+id/tvTextLocation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLocation"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/tvTextLocation"
+        android:layout_alignBottom="@+id/tvTextLocation"
+        android:layout_toRightOf="@+id/tvTextLocation"
+        android:layout_toEndOf="@+id/tvTextLocation" />
+
+    <Button
+        android:text="@string/edit_Record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btEdit" />
+
+    <Button
+        android:text="@string/delete_Record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/btDelete"
+        />
+
+</RelativeLayout>

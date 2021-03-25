@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lottery DBTwo</string>
+    <string name="players">Player Database Application</string>
+    <string name="insert_player">Insert Player into Database</string>
+    <string name="display_players">Display Player Database</string>
+    <string name="text_ID">ID = </string>
+    <string name="text_Name">Name = </string>
+    <string name="text_Location">Location = </string>
+    <string name="edit_Record">Edit the Record</string>
+    <string name="delete_Record">Delete the Record</string>
+    <string name="update_Record">Update the Record</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_location">Enter City</string>
+</resources>
