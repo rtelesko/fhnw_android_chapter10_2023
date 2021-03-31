@@ -24,7 +24,6 @@ public class Task implements Serializable {
     @ColumnInfo(name = "finished")
     private boolean finished;
 
-
     /*
      * Getters and Setters
      * */

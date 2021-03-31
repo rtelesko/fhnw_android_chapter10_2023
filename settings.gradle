@@ -1,3 +1,4 @@
+include ':LotteryORM'
 include ':LotteryMVVM'
 include ':LotteryDBTwo'
 include ':LotteryDBThree'

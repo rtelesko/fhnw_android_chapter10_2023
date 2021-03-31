@@ -69,6 +69,8 @@ public class AddTaskActivity extends AppCompatActivity {
                 DatabaseClient.getInstance(getApplicationContext()).getAppDatabase()
                         .taskDao()
                         .insert(task);
+
+
                 return null;
             }
 
