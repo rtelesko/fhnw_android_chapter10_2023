@@ -7,13 +7,13 @@ public class Model {
     @Nullable
     String username, password;
 
-    // constructor
+    // Constructor
     public Model(String username, String password) {
         this.username = username;
         this.password = password;
     }
 
-    // getter and setter methods for username
+    // Getter and setter methods for username
     @Nullable
     public String getUsername() {
         return username;
@@ -23,7 +23,7 @@ public class Model {
         this.username = username;
     }
 
-    // getter and setter methods for password
+    // Getter and setter methods for password
     @Nullable
     public String getPassword() {
         return password;

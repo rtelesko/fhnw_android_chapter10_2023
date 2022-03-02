@@ -12,7 +12,7 @@ import com.example.lotterymvvm.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    // any change in toastMessage attribute defined on the Button with bind prefix invokes this method
+    // Any change in toastMessage attribute defined on the Button with bind prefix invokes this method
     @BindingAdapter({"toastMessage"})
     public static void runMe(View view, String message) {
         if (message != null)
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // ViewModel updates the Model after observing changes in the View
-        // model will also update the view via the ViewModel
+        // Model will also update the view via the ViewModel
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         activityMainBinding.setViewModel(new AppViewModel());
         activityMainBinding.executePendingBindings();

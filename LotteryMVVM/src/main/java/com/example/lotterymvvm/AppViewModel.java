@@ -8,25 +8,25 @@ public class AppViewModel extends BaseObservable {
     // The Data Binding Library generates a class named BR in the module package
     // which contains the IDs of the resources used for data binding.
 
-    // creating object of Model class
+    // Creating object of Model class
     private Model model;
 
-    // string variables for toast messages
+    // String variables for toast messages
     private String successMessage = "Login successful";
     private String errorMessage = "Username or Password is not valid";
 
     @Bindable
-    // string variable for toast message
+    // String variable for toast message
     private String toastMessage = null;
 
-    // constructor of ViewModel class
+    // Constructor of ViewModel class
     public AppViewModel() {
 
-        // instantiating object of model class
+        // Instantiating object of model class
         model = new Model("", "");
     }
 
-    // getter and setter methods for toast message
+    // Getter and setter methods for toast message
     public String getToastMessage() {
         return toastMessage;
     }
@@ -36,7 +36,7 @@ public class AppViewModel extends BaseObservable {
         notifyPropertyChanged(BR.toastMessage);
     }
 
-    // getter and setter methods for username variable
+    // Getter and setter methods for username variable
     @Bindable
     public String getUsername() {
         return model.getUsername();
@@ -47,7 +47,7 @@ public class AppViewModel extends BaseObservable {
         notifyPropertyChanged(BR.username);
     }
 
-    // getter and setter methods for password variable
+    // Getter and setter methods for password variable
     @Bindable
     public String getPassword() {
         return model.getPassword();
@@ -58,7 +58,7 @@ public class AppViewModel extends BaseObservable {
         notifyPropertyChanged(BR.password);
     }
 
-    // actions to be performed when user clicks the LOGIN button
+    // Actions to be performed when user clicks the LOGIN button
     public void onButtonClicked() {
         if (isValid())
             setToastMessage(successMessage);
@@ -66,7 +66,7 @@ public class AppViewModel extends BaseObservable {
             setToastMessage(errorMessage);
     }
 
-    // check for validity
+    // Check for validity
     public boolean isValid() {
         return getUsername().length() >= 5 && getPassword().equals("admin");
     }

@@ -17,7 +17,8 @@
         <meta-data android:name="QUERY_LOG" android:value="true"/>
         <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="ch.fhnw" />
         <!-- the rest is the same as usual -->
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
