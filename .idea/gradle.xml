@@ -14,12 +14,12 @@
             <option value="$PROJECT_DIR$/LotteryDBOne" />
             <option value="$PROJECT_DIR$/LotteryDBThree" />
             <option value="$PROJECT_DIR$/LotteryDBTwo" />
-            <option value="$PROJECT_DIR$/LotteryMVVM" />
+            <option value="$PROJECT_DIR$/LotteryMVC" />
             <option value="$PROJECT_DIR$/LotteryORM" />
+            <option value="$PROJECT_DIR$/RetrofitTest" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

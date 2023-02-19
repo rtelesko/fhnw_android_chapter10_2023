@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lottery MVC Example</string>
+    <string name="button_text">Get Players</string>
+</resources>

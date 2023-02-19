@@ -1,7 +1,9 @@
 include ':LotteryORM'
-include ':LotteryMVVM'
+include ':LotteryMVC'
 include ':LotteryDBTwo'
 include ':LotteryDBThree'
 include ':LotteryDBOne'
 include ':app'
+include ':RetrofitTest'
 rootProject.name = "Chapter10"
+
