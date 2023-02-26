@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.lotterydbthree"
         minSdkVersion 19
-        targetSdk 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -19,7 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    buildToolsVersion '31.0.0'
+    buildToolsVersion '33.0.0'
 
 }
 
@@ -34,7 +34,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    implementation "androidx.room:room-runtime:$room_version"
-    annotationProcessor "androidx.room:room-compiler:2.4.2"
-    implementation 'com.google.android.material:material:1.5.0'
+    implementation "androidx.room:room-runtime:2.5.0"
+    annotationProcessor 'androidx.room:room-compiler:2.5.0'
+    implementation 'com.google.android.material:material:1.8.0'
 }
