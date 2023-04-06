@@ -11,13 +11,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/FirebaseCRUD" />
             <option value="$PROJECT_DIR$/LotteryDBOne" />
             <option value="$PROJECT_DIR$/LotteryDBThree" />
             <option value="$PROJECT_DIR$/LotteryDBTwo" />
             <option value="$PROJECT_DIR$/LotteryMVC" />
             <option value="$PROJECT_DIR$/LotteryORM" />
             <option value="$PROJECT_DIR$/RetrofitTest" />
-            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
       </GradleProjectSettings>

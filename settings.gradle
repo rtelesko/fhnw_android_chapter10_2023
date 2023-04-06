@@ -3,7 +3,7 @@ include ':LotteryMVC'
 include ':LotteryDBTwo'
 include ':LotteryDBThree'
 include ':LotteryDBOne'
-include ':app'
+include ':FirebaseCRUD'
 include ':RetrofitTest'
 rootProject.name = "Chapter10"
 

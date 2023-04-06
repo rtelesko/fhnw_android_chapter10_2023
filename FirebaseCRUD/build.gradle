@@ -6,7 +6,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "ch.fhnw.chapter10"
+        applicationId "com.example.firebasecrud"
         minSdkVersion 25
         targetSdk 33
         versionCode 1
